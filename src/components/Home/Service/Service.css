@@ -1,0 +1,14 @@
+.service-card {
+    border: none !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    
+}
+.link_style:hover{
+    text-decoration: none;
+}

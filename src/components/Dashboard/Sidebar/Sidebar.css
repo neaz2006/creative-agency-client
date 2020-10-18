@@ -1,0 +1,36 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: between;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+}
+.sidebar li{
+    margin-bottom: 2em;
+}
+.sidebar li:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.sidebar svg{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        min-height: 100%;
+        padding-bottom: 0 !important;
+    }
+    .slidebar .brand-img{
+        display: block;
+        margin: auto;
+    }
+    .sidebar li{
+        display: inline-block;
+    }
+    .sidebar .log-out {
+        display: none;
+    }
+}

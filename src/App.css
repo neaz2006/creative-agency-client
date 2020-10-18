@@ -1,0 +1,19 @@
+.common-btn {
+  background-color: #111430;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.common-btn:focus {
+  outline: none;
+}
+.common-btn:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+.text-highlight {
+  color: #7AB259;
+}

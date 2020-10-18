@@ -1,0 +1,10 @@
+.table-row td{
+	border-top: none !important;
+}
+.table-row th{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	background-color: #F5F6FA;
+	border: none !important;
+	color: #686868;
+}

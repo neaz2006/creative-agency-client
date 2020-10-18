@@ -1,0 +1,33 @@
+.dashboard-form {
+    box-sizing: border-box;
+}
+.dashboard-form h1 {
+    height: 7vh;
+    margin-left: 3rem;
+    margin-top: 0.7rem;
+}
+.dashboard-form > .form-div {
+    background-color: #E5E5E5;
+    border-radius: 7px;
+    min-height: 88vh;
+}
+.dashboard-form > .form-div > .form-body {
+    width: 50vw;
+    padding: 3rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    .dashboard-form > .form-div {
+        max-height: 100%;
+    }
+    .dashboard-form > .form-div > .form-body {
+        width: 100%;
+        padding: 3rem;
+    }
+    .dashboard-form h1 {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
